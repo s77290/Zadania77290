@@ -1,0 +1,60 @@
+/* --- Загальні налаштування сторінки --- */
+body {
+    /* Додаткова відмінність: використовуємо шрифт із зарубками для червоної теми */
+    font-family: 'Georgia', serif; 
+    background-color: #fff5f5; /* Дуже світлий червонуватий фон */
+    color: #333333; /* Темний колір тексту для зручного читання */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* --- Заголовки --- */
+h1 {
+    color: #8b0000; /* Темно-червоний (DarkRed) */
+    /* Додаткова відмінність: центруємо головний заголовок і робимо його більшим */
+    text-align: center; 
+    font-size: 3em;
+    border-bottom: 3px solid #8b0000; /* Груба червона лінія знизу */
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #cc0000; /* Яскраво-червоний */
+    background-color: #ffe6e6; /* Світло-червоний фон для підзаголовків */
+    padding: 10px;
+    /* Додаткова відмінність: різкі квадратні кути та ліва рамка */
+    border-left: 5px solid #8b0000; 
+}
+
+/* --- Секції резюме (досвід, освіта тощо) --- */
+section {
+    background-color: #ffffff;
+    /* Додаткова відмінність: суцільна червона рамка навколо кожної секції */
+    border: 2px solid #ffcccc; 
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 0px #ffe6e6; /* Жорстка тінь у ретро-стилі (відрізняється від м'яких тіней) */
+}
+
+/* --- Списки (навички, обов'язки) --- */
+ul {
+    list-style-type: square; /* Додаткова відмінність: квадратні маркери списку */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* --- Посилання --- */
+a {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #8b0000;
+    text-decoration: underline;
+}
