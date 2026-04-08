@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Ivantsiv Vadym 77290 </title>
 </head>
+    <link id="theme-style" rel="stylesheet" href="red.css">
 <body>
+    <button onclick="toggleTheme()" style="margin-bottom: 20px; padding: 10px; cursor: pointer;"></button>
+    <script>
+    function toggleTheme() {
+        let themeLink = document.getElementById("theme-style");
+        
+        if (themeLink.getAttribute("href") == "red.css") {
+            themeLink.setAttribute("href", "green.css");
+        } else {
+            themeLink.setAttribute("href", "red.css");
+        }
+    }
+</script>
 
     <header>
         <h1>Vadym Ivantsiv</h1> 
