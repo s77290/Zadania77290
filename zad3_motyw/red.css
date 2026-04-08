@@ -53,7 +53,30 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+/* --- Кнопка перемикання теми (Зелений стиль) --- */
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2e8b57; /* Морський зелений колір */
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(46, 139, 87, 0.4);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
 
+.theme-btn:hover {
+    background-color: #3cb371; /* Світлішає при наведенні */
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 15px rgba(60, 179, 113, 0.5);
+}
 a:hover {
     color: #8b0000;
     text-decoration: underline;
