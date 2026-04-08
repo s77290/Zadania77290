@@ -1,36 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #e6ffe6; /* Світло-світло зелений фон */
-    padding: 20px;
+/* --- Кнопка перемикання теми (Червоний стиль) --- */
+.theme-btn {
+    position: fixed; /* Робить кнопку плаваючою */
+    top: 20px;       /* Відступ зверху */
+    right: 20px;     /* Відступ справа */
+    background-color: #8b0000; /* Темно-червоний колір */
+    color: #ffffff;  /* Білий текст */
+    border: none;
+    border-radius: 25px; /* Сильно заокруглені кути */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(139, 0, 0, 0.4); /* Гарна тінь */
+    transition: all 0.3s ease; /* Плавна анімація */
+    z-index: 1000; /* Щоб кнопка завжди була поверх інших елементів */
 }
 
-h1 {
-    color: green;
-    background-color: white;
-    padding: 10px;
-}
-
-h2 {
-    color: darkgreen;
-}
-
-img {
-    width: 200px;
-    border: 3px solid green;
-}
-
-p {
-    color: black;
-    font-size: 18px;
-}
-
-ul {
-    background-color: white;
-    padding: 15px;
-    margin-left: 20px;
-    border: 1px solid green;
-}
-
-li {
-    margin-bottom: 5px;
+.theme-btn:hover {
+    background-color: #cc0000; /* Світлішає при наведенні */
+    transform: translateY(-2px); /* Трохи підстрибує вгору */
+    box-shadow: 0 6px 15px rgba(204, 0, 0, 0.5); /* Тінь стає більшою */
 }
