@@ -45,19 +45,23 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Doświadczenie</h2>
-            <article>
-                <h3>Specjalista ds. E-commerce (Własna działalność)</h3>
-                <p>2024 - obecnie</p>
-                <p>Analiza rynku sprzętu elektronicznego oraz odzieży. Zarządzanie budżetem, optymalizacja kosztów zakupu i negocjacje z klientami. Skuteczne maksymalizowanie marży sprzedażowej.</p>
-            </article>
-            <article>
-                <h3>Digital Content Creator (Projekty YouTube)</h3>
-                <p>2023 - 2024</p>
-                <p>Tworzenie zautomatyzowanych anglojęzycznych kanałów wideo na rynek amerykański. Analiza algorytmów platformy oraz wykorzystanie narzędzi AI w procesie twórczym.</p>
-            </article>
-        </section>
+       <button id="btn-ukryj" onclick="toggleSection()" style="margin-bottom: 10px; padding: 5px 10px; cursor: pointer;">
+            👁️ Ukryj Doświadczenie
+        </button>
+
+        <section id="sekcja-doswiadczenie">
+            <h2>Doświadczenie</h2>
+            <article>
+                <h3>Specjalista ds. E-commerce (Własna działalność)</h3>
+                <p>2024 - obecnie</p>
+                <p>Analiza rynku sprzętu elektronicznego oraz odzieży. Zarządzanie budżetem, optymalizacja kosztów zakupu i negocjacje z klientami. Skuteczne maksymalizowanie marży sprzedażowej.</p>
+            </article>
+            <article>
+                <h3>Digital Content Creator (Projekty YouTube)</h3>
+                <p>2023 - 2024</p>
+                <p>Tworzenie zautomatyzowanych anglojęzycznych kanałów wideo na rynek amerykański. Analiza algorytmów platformy oraz wykorzystanie narzędzi AI w procesie twórczym.</p>
+            </article>
+        </section>
 
         <section>
             <h2>Edukacja</h2>
@@ -78,17 +82,6 @@
         <p>&copy; 2026 Vadym Ivantsiv</p>
     </footer>
 
-        <script>
-    function toggleTheme() {
-        let themeLink = document.getElementById("theme-style");
-        
-        if (themeLink.getAttribute("href") == "red.css") {
-            themeLink.setAttribute("href", "green.css");
-        } else {
-            themeLink.setAttribute("href", "red.css");
-        }
-    }
-    </script>
-
+     <script src="script.js"></script>
 </body>
 </html>
