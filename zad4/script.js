@@ -1,4 +1,3 @@
-// 1. Функція зміни теми (вимога 1)
 function toggleTheme() {
     let themeLink = document.getElementById("theme-style");
     if (themeLink.getAttribute("href") === "red.css") {
