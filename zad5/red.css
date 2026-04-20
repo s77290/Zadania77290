@@ -72,3 +72,13 @@ a:hover {
     color: #8b0000;
     text-decoration: underline;
 }
+/* Стилі для форми з Завдання 5 */
+.form-group {
+    margin-bottom: 15px;
+}
+.error {
+    color: red;
+    font-size: 0.85em;
+    display: block;
+    margin-top: 5px;
+}
