@@ -57,3 +57,13 @@ li {
     transform: translateY(-2px); 
     box-shadow: 0 6px 15px rgba(204, 0, 0, 0.5);
 }
+/* Стилі для форми з Завдання 5 */
+.form-group {
+    margin-bottom: 15px;
+}
+.error {
+    color: red;
+    font-size: 0.85em;
+    display: block;
+    margin-top: 5px;
+}
